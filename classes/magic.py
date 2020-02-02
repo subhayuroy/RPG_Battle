@@ -9,5 +9,5 @@ class Spell:
 
     def generate_dmg(self):
         low = self.dmg - 15
-        high = self.dmg + 15
+        high = self.dmg + 20
         return random.randrange(low, high)
